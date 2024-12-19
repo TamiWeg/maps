@@ -1,0 +1,92 @@
+/* כל הדף */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8f0; /* רקע בהיר בגוון ירוק */
+  margin: 0;
+  padding: 0;
+  color: #2e8b57; /* טקסט בצבע ירוק כהה */
+  text-align: center;
+ 
+
+}
+
+h2 {
+  margin: 20px 0;
+  font-size: 2em;
+  color: #2e8b57; /* צבע כותרת ירוק כהה */
+}
+
+
+/* עבור הטופס */
+form {
+
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: left;
+  padding: 20px;
+  background-color: #ffffff; /* רקע לבן לטופס */
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* כותרות בטופס */
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: #2e8b57; /* צבע כותרות ירוק כהה */
+}
+
+/* קלטים בטופס */
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #2e8b57; /* גבול ירוק */
+  border-radius: 4px;
+  background-color: #f9f9f9; /* רקע בהיר */
+}
+
+/* רשימת הצעות */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  cursor: pointer;
+  background-color: #f0f8f0;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 1px solid #2e8b57; /* גבול ירוק */
+  border-radius: 4px;
+}
+
+ul li:hover {
+  background-color: #d1e7d7; /* צבע ירוק בהיר בעת ריחוף */
+}
+
+/* עבור המפה */
+#map-container {
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #ffffff; /* רקע לבן */
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* עבור כפתורים בטופס */
+button {
+  background-color: #2e8b57; /* ירוק כהה */
+  color: #ffffff; /* צבע טקסט לבן */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #2b7a47; /* ירוק כהה יותר כשמעבירים עכבר */
+}
